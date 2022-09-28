@@ -91,7 +91,7 @@
   }
 }
 
-@media (min-width: 770px) and (max-width: 1440px) {
+@media (min-width: 770px) {
   .container-navbar {
     max-width: 1440px;
   }
@@ -127,7 +127,7 @@
   .search-screen img {
     position: absolute;
     top: 32px;
-    right: 668px;
+    right: 868px;
   }
 
   .input-navbar {

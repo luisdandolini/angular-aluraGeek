@@ -91,3 +91,30 @@
     width: 1rem;
   }
 }
+
+@media (min-width: 770px) and (max-width: 1600px) {
+  .container-products {
+    max-width: 1440px;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 4rem;
+  }
+  .view-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  .title-products h2 {
+    font-size: 2rem;
+  }
+  .products img {
+    width: 174px;
+    height: 174px;
+  }
+  .other-products a {
+    font-size: 1rem;
+    display: flex;
+    gap: .5rem;
+    margin-right: 2.5rem;
+  }
+}
