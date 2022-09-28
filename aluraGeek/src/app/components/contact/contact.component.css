@@ -111,3 +111,23 @@
   font-weight: 500;
   line-height: 1.125rem;
 }
+
+@media (min-width: 370px) and (max-width: 768px) {
+  .container-contact {
+    max-width: 768px;
+    height: 22rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact-always {
+    margin-left: 2rem;
+  }
+  .links-contact li{
+    text-align: justify;
+    margin-bottom: 1.5rem;
+  }
+  .contact-us {
+    margin-right: 1rem;
+    width: 27rem;
+  }
+}
