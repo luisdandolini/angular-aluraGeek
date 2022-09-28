@@ -69,13 +69,13 @@
   color: #2A7AE4;
 }
 
-@media screen and (min-width: 370px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .container-products {
     max-width: 768px;
   }
   .view-products {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 1rem;
   }
   .title-products {
@@ -92,7 +92,7 @@
   }
 }
 
-@media (min-width: 770px) and (max-width: 1600px) {
+@media (min-width: 1440) and (max-width: 1600px) {
   .container-products {
     max-width: 1440px;
     margin-left: 9rem;

@@ -39,9 +39,9 @@
   display: none;
 }
 
-@media screen and (min-width: 370px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .container-navbar {
-    max-width: 768px;
+    max-width: 100vw;
   }
 
   .login {
@@ -68,9 +68,7 @@
   }
 
   .search-screen img {
-    position: absolute;
-    top: 32px;
-    right: 368px;
+    display: none;
   }
 
   .input-navbar {
@@ -91,7 +89,7 @@
   }
 }
 
-@media (min-width: 770px) and (max-width: 1600px) {
+@media (min-width: 1440) and (max-width: 1600px) {
   .container-navbar {
     max-width: 1440px;
   }
@@ -125,9 +123,7 @@
   }
 
   .search-screen img {
-    position: absolute;
-    top: 32px;
-    right: 868px;
+    display: none;
   }
 
   .input-navbar {
@@ -182,9 +178,7 @@
   }
 
   .search-screen img {
-    position: absolute;
-    top: 34px;
-    right: 1508px;
+    display: none;
   }
 
   .input-navbar {
