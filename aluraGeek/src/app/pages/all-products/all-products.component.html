@@ -1,1 +1,19 @@
-<p>all-products works!</p>
+<app-navbar></app-navbar>
+   
+<div class="all-products">
+  <div class="nav-product">
+    <h2>Todos os produtos</h2>
+    <button class="add-product">Adicionar produto</button>
+  </div>
+
+  <div class="content-products">
+    <div *ngFor="let product of productAll" class="products">
+      <img src="{{ product.productPhoto }}" alt="">
+      <h3>{{ product.productTitle }}</h3>
+      <p class="products-price">R$ {{ product.productPrice }}</p>
+      <p class="products-id">#{{ product.id }}</p>
+    </div>
+  </div>
+</div>
+
+<app-contact></app-contact>

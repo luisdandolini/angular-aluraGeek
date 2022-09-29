@@ -1,0 +1,126 @@
+.all-products {
+  background-color: #E5E5E5;
+  margin-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.all-products h2 {
+  padding-top: 2rem;
+}
+
+.content-products {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.add-product {
+  width: 9.47rem;
+  height: 2.5rem;
+  background-color: #2A7AE4;
+  color: #FFFFFF;
+  padding: 0.75rem 1rem;
+  border: none;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+  font-family: "Raleway";
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 249px;
+}
+
+.products img {
+  width: 140px;
+  height: 174px;
+  margin-bottom: .5rem;
+}
+
+.products h3,
+.products-id {
+  font-size: 0.875rem;
+  font-family: "Raleway";
+  font-weight: 500;
+  line-height: 1rem;
+  color: #464646;
+  margin-bottom: .5rem;
+}
+
+.products-price {
+  font-size: 1rem;
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: #464646;
+  margin-bottom: .5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .nav-product {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-product h2 {
+    padding-bottom: 1rem;
+  }
+  .products {
+    width: 164px;
+    height: 249px;
+  }
+  .products img {
+    width: 164px;
+    height: 174px;
+    margin-bottom: .5rem;
+  }
+}
+
+@media (min-width: 1200) and (max-width: 1600px) {
+  .nav-product {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+  }
+  .products img {
+    width: 176px;
+    height: 174px;
+    margin-bottom: .5rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .all-products {
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+  }
+  .nav-product {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 8rem;
+    padding-left: 1rem;
+  }
+  .products {
+    width: 164px;
+    height: 249px;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-product h2 {
+    margin-bottom: 1rem;
+  }
+  .products img {
+    width: 176px;
+    height: 174px;
+    margin-bottom: .5rem;
+  }
+}
