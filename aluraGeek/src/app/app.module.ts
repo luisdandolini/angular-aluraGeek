@@ -10,6 +10,8 @@ import { ProductsComponent } from './components/products/products.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SessionComponent } from './components/session/session.component';
+import { NewProductComponent } from './pages/new-product/new-product.component';
+import { FormNewProductComponent } from './components/form-new-product/form-new-product.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SessionComponent } from './components/session/session.component';
     ProductsComponent,
     ContactComponent,
     LoginComponent,
-    SessionComponent
+    SessionComponent,
+    NewProductComponent,
+    FormNewProductComponent
   ],
   imports: [
     BrowserModule,

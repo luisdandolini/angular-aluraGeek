@@ -1,0 +1,123 @@
+.container-newProduct {
+  margin-top: 1rem;
+  background-color: #E5E5E5;
+}
+
+.container-newProduct h3 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.newProduct-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.form-image,
+.form-category,
+.form-name,
+.form-price {
+  margin-bottom: 1rem;
+  width: 20.5rem;
+  height: 3.5rem;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 0.5px solid gray;
+}
+
+.form-image::placeholder,
+.form-category::placeholder,
+.form-name::placeholder,
+.form-price::placeholder {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Raleway";
+  line-height: 1rem;
+  padding-left: 0.75rem;
+  position: relative;
+  bottom: 10px;
+}
+
+.form-description {
+  margin-bottom: 1rem;
+  width: 20.5rem;
+  height: 5rem;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 0.5px solid gray;
+}
+
+.form-description::placeholder {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Raleway";
+  line-height: 1rem;
+  padding-left: 0.75rem;
+  position: relative;
+  bottom: 18px;
+}
+
+.button-newProduct {
+  width: 20.5rem;
+  height: 3.18rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: #2A7AE4;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  font-family: "Raleway";
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .newProduct-form {
+    padding: 0 2rem;
+  }
+  
+  .button-newProduct {
+    margin-left: 2rem;
+  }
+
+  .container-newProduct h3 {
+    margin-left: 1rem;
+  }
+
+  .form-image,
+  .form-category,
+  .form-name,
+  .form-price,
+  .form-description,
+  .button-newProduct {
+    width: 44rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-newProduct {
+    text-align: center;
+  }
+
+  .group-newProduct {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-newProduct {
+    margin-left: 0;
+  }
+
+  .form-image,
+  .form-category,
+  .form-name,
+  .form-price,
+  .form-description,
+  .button-newProduct {
+    width: 44rem;
+  }
+}
