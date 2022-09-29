@@ -13,6 +13,7 @@ import { SessionComponent } from './components/session/session.component';
 import { NewProductComponent } from './pages/new-product/new-product.component';
 import { FormNewProductComponent } from './components/form-new-product/form-new-product.component';
 import { AllProductsComponent } from './pages/all-products/all-products.component';
+import { DetailsProductComponent } from './pages/details-product/details-product.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AllProductsComponent } from './pages/all-products/all-products.componen
     SessionComponent,
     NewProductComponent,
     FormNewProductComponent,
-    AllProductsComponent
+    AllProductsComponent,
+    DetailsProductComponent
   ],
   imports: [
     BrowserModule,

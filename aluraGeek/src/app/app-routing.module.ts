@@ -1,3 +1,4 @@
+import { DetailsProductComponent } from './pages/details-product/details-product.component';
 import { AllProductsComponent } from './pages/all-products/all-products.component';
 import { NewProductComponent } from './pages/new-product/new-product.component';
 import { LoginComponent } from './pages/login/login.component';
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: "products",
     component: AllProductsComponent
+  },
+  {
+    path: "details-products",
+    component: DetailsProductComponent
   },
   {
     path: "new-product",
