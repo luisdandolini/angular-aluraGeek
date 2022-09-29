@@ -3,7 +3,6 @@
   margin-left: auto;
   margin-right: auto;
   height: 35rem;
-  margin-top: 1rem;
   text-align: center;
   background-color: #EAF2FD;
 }
@@ -138,7 +137,6 @@
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
     text-align: center;
     background-color: #EAF2FD;
     display: flex;
@@ -174,7 +172,6 @@
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
     text-align: center;
     background-color: #EAF2FD;
     display: flex;

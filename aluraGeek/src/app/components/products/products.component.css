@@ -1,9 +1,13 @@
+main {
+  background-color: #E5E5E5;
+}
+
 .container-products {
   max-width: 360px;
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px 1rem;
+  padding: 1rem 1rem;
 }
 
 .title-products {
