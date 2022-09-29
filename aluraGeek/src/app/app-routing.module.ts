@@ -1,3 +1,4 @@
+import { AllProductsComponent } from './pages/all-products/all-products.component';
 import { NewProductComponent } from './pages/new-product/new-product.component';
 import { LoginComponent } from './pages/login/login.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginComponent
+  },
+  {
+    path: "products",
+    component: AllProductsComponent
   },
   {
     path: "new-product",

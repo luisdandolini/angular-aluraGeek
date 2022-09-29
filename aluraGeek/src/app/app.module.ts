@@ -12,6 +12,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { SessionComponent } from './components/session/session.component';
 import { NewProductComponent } from './pages/new-product/new-product.component';
 import { FormNewProductComponent } from './components/form-new-product/form-new-product.component';
+import { AllProductsComponent } from './pages/all-products/all-products.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FormNewProductComponent } from './components/form-new-product/form-new-
     LoginComponent,
     SessionComponent,
     NewProductComponent,
-    FormNewProductComponent
+    FormNewProductComponent,
+    AllProductsComponent
   ],
   imports: [
     BrowserModule,
