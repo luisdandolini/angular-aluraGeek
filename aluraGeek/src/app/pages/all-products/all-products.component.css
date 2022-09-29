@@ -104,8 +104,11 @@
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    padding-right: 8rem;
+    padding-right: 4rem;
     padding-left: 1rem;
+  }
+  .nav-product h2 {
+    margin-left: 4rem;
   }
   .products {
     width: 164px;
@@ -122,5 +125,8 @@
     width: 176px;
     height: 174px;
     margin-bottom: .5rem;
+  }
+  .content-products {
+    margin-left: 4rem;
   }
 }
